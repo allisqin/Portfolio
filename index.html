@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <meta name="title" content="Мое портфолио">
+    <meta name="description" content="Здесь вы сможете ознакомиться с моими работами и узнать больше обо мне">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:title" content="Мое портфолио">
+    <meta property="og:description" content="Здесь вы сможете ознакомиться с моими работами и узнать больше обо мне">
+    <meta property="og:image"
+        content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metatags.io/">
+    <meta property="twitter:title" content="Мое портфолио">
+    <meta property="twitter:description"
+        content="Здесь вы сможете ознакомиться с моими работами и узнать больше обо мне">
+    <meta property="twitter:image"
+        content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+    <!-- Favicon  -->
+    <link rel="apple-touch-icon" sizes="57x57" href="icons/favicon//apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icons/favicon//apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/favicon//apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/favicon//apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/favicon//apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/favicon//apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/favicon//apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/favicon//apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/favicon//apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/favicon//android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon//favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon//favicon-16x16.png">
+    <link rel="manifest" href="icons/favicon//manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="icons/favicon//ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/style.min.css">
+    <style type="text/css">
+        .digit {
+            opacity: 0;
+            -webkit-transform: translateX(-40px);
+            -moz-transform: translateX(-40px);
+            -ms-transform: translateX(-40px);
+            -o-transform: translateX(-40px);
+            transform: translateX(-40px);
+            -webkit-transition: all 0.6s ease-out;
+            -moz-transition: all 0.6s ease-out;
+            -ms-transition: all 0.6s ease-out;
+            -o-transition: all 0.6s ease-out;
+            transition: all 0.6s ease-out;
+        }
+
+        .digit.visible {
+            opacity: 1;
+            -webkit-transform: none;
+            -moz-transform: none;
+            -ms-transform: none;
+            -o-transform: none;
+            transform: none;
+        }
+
+        .digit:nth-child(2) {
+            margin-top: 50px;
+        }
+
+        .digit:nth-child(3) {
+            margin-top: 100px;
+        }
+
+        .digit:nth-child(4) {
+            margin-top: 150px;
+        }
+
+        .digit:nth-child(5) {
+            margin-top: 200px;
+        }
+
+        .digit:nth-child(6) {
+            margin-top: 250px;
+        }
+
+        .digit:nth-child(7) {
+            margin-top: 300px;
+        }
+
+        @media (max-width: 576px) {
+            .digit {
+                margin-top: 15px !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <aside class="sidepanel"><a href="https://vk.com/allisqin" class="sidepanel__link" target="_blank">
+            <!-- icon666.com - MILLIONS vector ICONS FREE --><svg width="20" height="20"
+                style="transform: rotate(-90deg);" viewBox="0 0 485 485" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="m144.753906 275.964844c12.160156 16.476562 26.132813 31.046875 44.183594 41.355468 20.441406 11.683594 42.449219 15.207032 65.660156 14.132813 10.84375-.519531 14.105469-3.347656 14.605469-14.152344.335937-7.402343 1.191406-14.785156 4.835937-21.4375 3.582032-6.523437 9.015626-7.757812 15.285157-3.699219 3.121093 2.050782 5.75 4.617188 8.238281 7.363282 6.109375 6.667968 12.023438 13.574218 18.351562 20.023437 7.957032 8.101563 17.394532 12.875 29.234376 11.902344l45.875.019531c7.382812-.5 11.222656-9.550781 6.984374-17.816406-2.984374-5.769531-6.902343-10.902344-11.042968-15.882812-9.375-11.261719-20.421875-20.859376-30.867188-31.046876-9.414062-9.191406-10.011718-14.527343-2.449218-25.132812 8.277343-11.585938 17.152343-22.710938 25.492187-34.234375 7.78125-10.765625 15.765625-21.515625 19.839844-34.390625 2.609375-8.21875.300781-11.839844-8.09375-13.292969-1.453125-.238281-2.964844-.238281-4.4375-.238281l-49.917969-.0625c-6.148438-.097656-9.53125 2.589844-11.703125 8.039062-2.945313 7.367188-5.96875 14.730469-9.476563 21.816407-7.917968 16.121093-16.777343 31.703125-29.195312 44.878906-2.746094 2.902344-5.792969 6.585937-10.367188 5.074219-5.710937-2.089844-7.402343-11.519532-7.304687-14.703125l-.042969-57.621094c-1.109375-8.214844-2.945312-11.898437-11.121094-13.496094h-51.847656c-6.902344 0-10.386718 2.691407-14.089844 7.007813-2.109374 2.511718-2.769531 4.121094 1.613282 4.957031 8.59375 1.628906 13.472656 7.203125 14.746094 15.824219 2.050781 13.792968 1.910156 27.640625.71875 41.472656-.339844 4.039062-1.035157 8.0625-2.632813 11.84375-2.503906 5.949219-6.566406 7.144531-11.878906 3.484375-4.792969-3.304687-8.175781-7.960937-11.503907-12.636719-12.4375-17.578125-22.347656-36.519531-30.449218-56.425781-2.328125-5.753906-6.367188-9.234375-12.457032-9.335937-14.96875-.238282-29.953124-.273438-44.941406.019531-8.996094.160156-11.683594 4.539062-8 12.71875 16.300782 36.28125 34.453125 71.546875 58.15625 103.671875zm0 0" />
+                <path d="m0 0v485h485v-485zm455 455h-425v-425h425zm0 0" /></svg> </a><a
+            href="https://www.instagram.com/allisqin?igsh=MnoxbmhiMjg3ZGk1" class="sidepanel__link" target="_blank">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M-6.01032e-07 6.25L-2.73196e-07 13.75C-1.22337e-07 17.2012 2.79875 20 6.25 20L13.75 20C17.2013 20 20 17.2012 20 13.75L20 6.25C20 2.79875 17.2012 -7.51891e-07 13.75 -6.01032e-07L6.25 -2.73196e-07C2.79875 -1.22337e-07 -7.51891e-07 2.79875 -6.01032e-07 6.25ZM13.75 1.875C16.1625 1.875 18.125 3.8375 18.125 6.25L18.125 13.75C18.125 16.1625 16.1625 18.125 13.75 18.125L6.25 18.125C3.8375 18.125 1.875 16.1625 1.875 13.75L1.875 6.25C1.875 3.8375 3.8375 1.875 6.25 1.875L13.75 1.875Z"
+                    fill="black" />
+                <path
+                    d="M5 10C5 12.7612 7.23875 15 10 15C12.7613 15 15 12.7612 15 10C15 7.23875 12.7612 5 10 5C7.23875 5 5 7.23875 5 10ZM13.125 10C13.125 11.7225 11.7225 13.125 10 13.125C8.27625 13.125 6.875 11.7225 6.875 10C6.875 8.2775 8.27625 6.875 10 6.875C11.7225 6.875 13.125 8.2775 13.125 10Z"
+                    fill="black" />
+                <path
+                    d="M5.29123 4.625C5.29123 4.25704 4.99295 3.95875 4.62499 3.95875C4.25703 3.95875 3.95874 4.25704 3.95874 4.625C3.95874 4.99296 4.25703 5.29125 4.62499 5.29125C4.99295 5.29125 5.29123 4.99296 5.29123 4.625Z"
+                    fill="black" /></svg> </a><a href="https://github.com/allisqin" class="sidepanel__link"
+            target="_blank"><svg width="19" height="20" viewBox="0 0 19 20" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M-4.37114e-07 9.99951C-1.95608e-07 15.5245 4.36167 19.9995 9.74107 19.9995C14.0457 19.9995 17.6962 17.1345 18.9832 13.162C19.0749 12.662 18.7734 12.4787 18.5148 12.4787C18.2835 12.4787 17.6706 12.487 16.8585 12.4912C17.4459 15.2728 15.5517 15.8595 15.5517 15.8595C14.4274 16.3145 14.1267 16.972 14.1267 16.972C13.5228 17.8778 13.5352 16.902 13.5352 16.902C13.603 15.8978 14.5389 15.3703 14.5389 15.3703C16.0283 14.4787 15.5979 13.0295 15.3493 12.4578C14.719 12.3678 14.2903 12.1103 14.0466 11.8245C13.8029 14.0453 12.9652 16.3795 9.23304 16.3795C8.16988 16.3795 7.30085 15.992 6.61933 15.3503C6.37316 15.4628 5.3827 15.8003 4.04116 15.2628C4.04116 15.2628 3.78012 14.4253 5.03988 12.5128C4.82345 11.7128 4.71606 10.8628 4.7111 10.0128C4.71606 9.16284 4.82345 8.31285 5.03988 7.51284C3.78012 5.61285 4.04116 4.77535 4.04116 4.77535C5.3827 4.23785 6.37316 4.57534 6.61933 4.67535C7.30085 4.03785 8.16988 3.65035 9.23304 3.65035C12.9752 3.65035 13.7987 5.98784 14.0383 8.21284C14.3307 7.86284 14.928 7.53784 15.8408 7.53784C17.1444 7.53784 18.1918 7.55034 18.5082 7.55034C18.7635 7.55034 19.0683 7.37534 18.9708 6.86284C17.692 2.86201 14.0391 -0.000488895 9.74107 -0.000488707C4.36167 -0.000488472 -6.7851e-07 4.47701 -4.37114e-07 9.99951Z"
+                    fill="#212121" /></svg></a>
+        <div class="sidepanel__divider"></div>
+        <div class="sidepanel__text"><span>Социальные сети</span></div>
+    </aside>
+    <div class="menu">
+        <div class="menu__block">
+            <div class="menu__close"><svg width="29" height="30" viewBox="0 0 29 30" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M17.1568 14.5231L28.4489 3.23075C29.1837 2.49623 29.1837 1.30861 28.4489 0.574085C27.7144 -0.160437 26.5267 -0.160437 25.7922 0.574085L14.4998 11.8665L3.20781 0.574085C2.47295 -0.160437 1.28567 -0.160437 0.551149 0.574085C-0.183716 1.30861 -0.183716 2.49623 0.551149 3.23075L11.8432 14.5231L0.551149 25.8155C-0.183716 26.55 -0.183716 27.7376 0.551149 28.4721C0.917206 28.8385 1.39852 29.0226 1.87948 29.0226C2.36045 29.0226 2.84141 28.8385 3.20781 28.4721L14.4998 17.1798L25.7922 28.4721C26.1586 28.8385 26.6396 29.0226 27.1205 29.0226C27.6015 29.0226 28.0825 28.8385 28.4489 28.4721C29.1837 27.7376 29.1837 26.55 28.4489 25.8155L17.1568 14.5231Z"
+                        fill="black" /></svg></div>
+            <nav>
+                <ul class="menu__list">
+                    <li class="menu__link"><a href="#about">ПРО МЕНЯ</a></li>
+                    <li class="menu__link"><a href="#resume">МОЙ ОПЫТ</a></li>
+                    <li class="menu__link"><a href="#skills">МОИ НАВЫКИ</a></li>
+                    <li class="menu__link"><a href="#portfolio">МОИ РАБОТЫ</a></li>
+                    <li class="menu__link"><a href="#prices">ПРАЙС-ЛИСТ</a></li>
+                    <li class="menu__link"><a href="#contacts">КОНТАКТЫ</a></li>
+                </ul>
+            </nav>
+            <div class="menu__social"><a href="https://github.com/allisqin" target="_blank"><svg width="20" height="19"
+                        viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10 0C4.475 0 0 4.36167 0 9.74107C0 14.0457 2.865 17.6962 6.8375 18.9832C7.3375 19.0749 7.52083 18.7734 7.52083 18.5148C7.52083 18.2835 7.5125 17.6706 7.50833 16.8585C4.72667 17.4459 4.14 15.5517 4.14 15.5517C3.685 14.4274 3.0275 14.1267 3.0275 14.1267C2.12167 13.5228 3.0975 13.5352 3.0975 13.5352C4.10167 13.603 4.62917 14.5389 4.62917 14.5389C5.52083 16.0283 6.97 15.5979 7.54167 15.3493C7.63167 14.719 7.88917 14.2903 8.175 14.0466C5.95417 13.8029 3.62 12.9652 3.62 9.23304C3.62 8.16988 4.0075 7.30085 4.64917 6.61934C4.53667 6.37317 4.19917 5.3827 4.73667 4.04116C4.73667 4.04116 5.57417 3.78012 7.48667 5.03988C8.28667 4.82345 9.13667 4.71606 9.98667 4.7111C10.8367 4.71606 11.6867 4.82345 12.4867 5.03988C14.3867 3.78012 15.2242 4.04116 15.2242 4.04116C15.7617 5.3827 15.4242 6.37317 15.3242 6.61934C15.9617 7.30085 16.3492 8.16988 16.3492 9.23304C16.3492 12.9752 14.0117 13.7987 11.7867 14.0383C12.1367 14.3307 12.4617 14.928 12.4617 15.8408C12.4617 17.1444 12.4492 18.1918 12.4492 18.5082C12.4492 18.7635 12.6242 19.0683 13.1367 18.9708C17.1375 17.692 20 14.0391 20 9.74107C20 4.36167 15.5225 0 10 0Z"
+                            fill="#212121" /></svg> </a><a
+                    href="https://www.instagram.com/allisqin?igsh=MnoxbmhiMjg3ZGk1" target="_blank"><svg width="20"
+                        height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M13.7495 0L6.24951 0C2.79826 0 -0.000488281 2.79875 -0.000488281 6.25L-0.000488281 13.75C-0.000488281 17.2013 2.79826 20 6.24951 20L13.7495 20C17.2008 20 19.9995 17.2013 19.9995 13.75L19.9995 6.25C19.9995 2.79875 17.2008 0 13.7495 0ZM18.1245 13.75C18.1245 16.1625 16.162 18.125 13.7495 18.125L6.24951 18.125C3.83701 18.125 1.87451 16.1625 1.87451 13.75L1.87451 6.25C1.87451 3.8375 3.83701 1.875 6.24951 1.875L13.7495 1.875C16.162 1.875 18.1245 3.8375 18.1245 6.25L18.1245 13.75Z"
+                            fill="black" />
+                        <path
+                            d="M9.99951 5C7.23826 5 4.99951 7.23875 4.99951 10C4.99951 12.7613 7.23826 15 9.99951 15C12.7608 15 14.9995 12.7613 14.9995 10C14.9995 7.23875 12.7608 5 9.99951 5ZM9.99951 13.125C8.27701 13.125 6.87451 11.7225 6.87451 10C6.87451 8.27625 8.27701 6.875 9.99951 6.875C11.722 6.875 13.1245 8.27625 13.1245 10C13.1245 11.7225 11.722 13.125 9.99951 13.125Z"
+                            fill="black" />
+                        <path
+                            d="M15.3745 5.29123C15.7425 5.29123 16.0408 4.99295 16.0408 4.62499C16.0408 4.25703 15.7425 3.95874 15.3745 3.95874C15.0065 3.95874 14.7083 4.25703 14.7083 4.62499C14.7083 4.99295 15.0065 5.29123 15.3745 5.29123Z"
+                            fill="black" /></svg> </a><a href="https://vk.com/allisqin" target="_blank"><svg width="20"
+                        height="20" viewBox="0 0 485 485" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="m144.753906 275.964844c12.160156 16.476562 26.132813 31.046875 44.183594 41.355468 20.441406 11.683594 42.449219 15.207032 65.660156 14.132813 10.84375-.519531 14.105469-3.347656 14.605469-14.152344.335937-7.402343 1.191406-14.785156 4.835937-21.4375 3.582032-6.523437 9.015626-7.757812 15.285157-3.699219 3.121093 2.050782 5.75 4.617188 8.238281 7.363282 6.109375 6.667968 12.023438 13.574218 18.351562 20.023437 7.957032 8.101563 17.394532 12.875 29.234376 11.902344l45.875.019531c7.382812-.5 11.222656-9.550781 6.984374-17.816406-2.984374-5.769531-6.902343-10.902344-11.042968-15.882812-9.375-11.261719-20.421875-20.859376-30.867188-31.046876-9.414062-9.191406-10.011718-14.527343-2.449218-25.132812 8.277343-11.585938 17.152343-22.710938 25.492187-34.234375 7.78125-10.765625 15.765625-21.515625 19.839844-34.390625 2.609375-8.21875.300781-11.839844-8.09375-13.292969-1.453125-.238281-2.964844-.238281-4.4375-.238281l-49.917969-.0625c-6.148438-.097656-9.53125 2.589844-11.703125 8.039062-2.945313 7.367188-5.96875 14.730469-9.476563 21.816407-7.917968 16.121093-16.777343 31.703125-29.195312 44.878906-2.746094 2.902344-5.792969 6.585937-10.367188 5.074219-5.710937-2.089844-7.402343-11.519532-7.304687-14.703125l-.042969-57.621094c-1.109375-8.214844-2.945312-11.898437-11.121094-13.496094h-51.847656c-6.902344 0-10.386718 2.691407-14.089844 7.007813-2.109374 2.511718-2.769531 4.121094 1.613282 4.957031 8.59375 1.628906 13.472656 7.203125 14.746094 15.824219 2.050781 13.792968 1.910156 27.640625.71875 41.472656-.339844 4.039062-1.035157 8.0625-2.632813 11.84375-2.503906 5.949219-6.566406 7.144531-11.878906 3.484375-4.792969-3.304687-8.175781-7.960937-11.503907-12.636719-12.4375-17.578125-22.347656-36.519531-30.449218-56.425781-2.328125-5.753906-6.367188-9.234375-12.457032-9.335937-14.96875-.238282-29.953124-.273438-44.941406.019531-8.996094.160156-11.683594 4.539062-8 12.71875 16.300782 36.28125 34.453125 71.546875 58.15625 103.671875zm0 0" />
+                        <path d="m0 0v485h485v-485zm455 455h-425v-425h425zm0 0" /></svg></a></div>
+        </div>
+        <div class="menu__overlay"></div>
+    </div>
+    <section class="promo panel">
+        <div class="hamburger"><span></span> <span class="long"></span> <span></span></div>
+        <div class="container">
+            <div class="title title_fz16 promo__subtitle">Меня зовут Алиса Волкова</div>
+            <h1 class="title title_fz48 promo__title">Я web-разработчик из Санкт-Петербурга</h1>
+            <div class="promo__btns"><a href="#portfolio" class="promo__links btn">Портфолио</a> <a href="#about"
+                    class="promo__links">Обо мне</a></div>
+        </div>
+    </section>
+    <section class="about panel" id="about">
+        <div class="container">
+            <div class="about__wrapper">
+                <div class="about__photo">
+                    <!-- <img srcset="img/main_photo-min.jpg 320w, 
+                    img/main_photo.jpg 40ow" sizes="(max-width:576px) 320px, (min-width:577px) 400px"
+                        src="img/main_photo.jpg" alt="Алиса Волкова"> -->
+                    <picture>
+                        <!-- <source media="(max-width: 576px)" srcset="img/main_photo-min.jpg">
+                        <source media="(min-width: 577px)" srcset="img/main_photo.jpg"> -->
+                        <!-- <source media="(min-width: 768px)" srcset="img/main_photo-min.jpg">
+                        <source media="(min-width: 992px)" srcset="img/main_photo-min-992.jpg"> --> <img
+                            src="img/main_photo.jpg" alt="photo"></picture>
+                </div>
+                <div class="about__descr">
+                    <h2 class="title title_fz16 about__title">Про меня</h2>
+                    <div class="title about__subtitle">Меня зовут Алиса</div>
+                    <div class="divider"></div>
+                    <p class="about__text">Родилась в городе Санкт-Петербурге. Закончила Физико-механический инженерный
+                        колледж с красным дипломом по специальности "Программное обеспечение вычислительной техники и
+                        автоматизированных систем" и Горный Униерситет по специальности "Управление и информатика в
+                        технических системах" с лучшей дипломной работой на потоке.
+                        Ближе всего мне Fronend разработка, поэтому самостоятельно и с помошью курсов получила знания,
+                        которые помогают мне заниматься тем, что мне нравится. Стараюсь постоянно получать новые знания
+                        в моей сфере деятельности.
+                    </p>
+                </div>
+                <div class="about__skills">
+                    <div class="about__skills_item">
+                        <div class="about__skills_circle"><img src="icons/about_me/web_development.svg" alt="web dev">
+                        </div>
+                        <div>
+                            <div class="title title_fz14">Web-разработка</div>
+                            <div class="about__skills-text">Разрабатываю валидные кроссбраузерные сайты. Использую
+                                современную верстку с помощью технологий flex и grid</div>
+                        </div>
+                    </div>
+                    <div class="about__skills_item">
+                        <div class="about__skills_circle"><img src="icons/about_me/catalogue.svg" alt="mobile dev">
+                        </div>
+                        <div>
+                            <div class="title title_fz14">Полиграфический дизайн</div>
+                            <div class="about__skills-text">Разрабатываю каталоги, брошюры, визитки и т.д.</div>
+                        </div>
+                    </div>
+                    <div class="about__skills_item">
+                        <div class="about__skills_circle"><img src="icons/about_me/design.svg" alt="design"></div>
+                        <div>
+                            <div class="title title_fz14">UI/UX Design</div>
+                            <div class="about__skills-text">В разработке web и UI-дизайна использую современные
+                                тенденции</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="resume panel" id="resume">
+        <div class="container">
+            <h2 class="title title_fz16 title__section-title">Опыт</h2>
+            <div class="title title_fz36 title__section-subtitle">Чем я буду полезна</div>
+            <div class="divider"></div>
+            <div class="resume__wrapper">
+                <div class="resume__column">
+                    <h3 class="title title_fz20 resume__column-title">Образование</h3>
+                    <ul>
+                        <li>
+                            <div class="resume__item">
+                                <div class="resume__item-head">
+                                    <div class="resume__item-icon"><img src="icons/experience/courses.svg"
+                                            alt="courses"></div>
+                                    <h4 class="title title_fz14">loft school</h4>
+                                    <div class="resume__item-location">Курсы по Web-разработке</div>
+                                </div>
+                                <div class="resume__item-body">Изучила технологии верстки, изучила продвинутый Java
+                                    Script, изучила методы адаптации сайтов, а так же современный фреймворк JS React
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="resume__item">
+                                <div class="resume__item-head">
+                                    <div class="resume__item-icon"><img src="icons/experience/university.svg"
+                                            alt="university"></div>
+                                    <h4 class="title title_fz14">Санкт-Петербургский Горный университет</h4>
+                                    <div class="resume__item-location">Диплом инженера | Санкт-Петербург (2011-2015)
+                                    </div>
+                                </div>
+                                <div class="resume__item-body">Изучала язык про C# и СУБД MS SQL-Server, сетевые
+                                    технологии, теорию автоматического управления</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="resume__item">
+                                <div class="resume__item-head">
+                                    <div class="resume__item-icon"><img src="icons/experience/university.svg"
+                                            alt="university"></div>
+                                    <h4 class="title title_fz14">ФМИК имени С. А. Зверева</h4>
+                                    <div class="resume__item-location">Техник-программист | Санкт-Петербург (2004-2008)
+                                    </div>
+                                </div>
+                                <div class="resume__item-body">Изучала языки программирования такие как, Delphi, C++,
+                                    Java Script. Зокончила с отличием.
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="resume__column">
+                    <h3 class="title title_fz20 resume__column-title">Опыт работы</h3>
+                    <ul>
+                        <li>
+                            <div class="resume__item">
+                                <div class="resume__item-head">
+                                    <div class="resume__item-icon"><img src="icons/experience/developer.svg"
+                                            alt="developer"></div>
+                                    <h4 class="title title_fz14">Programmer</h4>
+                                    <div class="resume__item-location">АО "Элкус" | Санкт-Петербург (2008-2017)</div>
+                                </div>
+                                <div class="resume__item-body">Разработка и поддержка информационно-справочной системы в
+                                    СУБД MS Access</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="resume__item">
+                                <div class="resume__item-head">
+                                    <div class="resume__item-icon"><img src="icons/experience/designer.svg"
+                                            alt="designer"></div>
+                                    <h4 class="title title_fz14">Designer</h4>
+                                    <div class="resume__item-location">АО "Элкус" | Санкт-Петербург (2017-2019)</div>
+                                </div>
+                                <div class="resume__item-body">Разработка и обновление каталога продукции компании в
+                                    программе Adobe InDesine</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="resume__item">
+                                <div class="resume__item-head">
+                                    <div class="resume__item-icon"><img src="icons/experience/developer.svg"
+                                            alt="developer"></div>
+                                    <h4 class="title title_fz14">Lead Software Engineer</h4>
+                                    <div class="resume__item-location">ФГБУ ФНОЦ МСЭ и Р им. Г.А. Альбрехта |
+                                        Санкт-Петербург (2019)</div>
+                                </div>
+                                <div class="resume__item-body">Разработка и обновление пользовательских форм и шаблонов
+                                    на языках HTML и XSL</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills panel" id="skills">
+        <div class="container">
+            <div class="title__section-title title title_fz16">Навыки</div>
+            <h3 class="title__section-subtitle title">Что я использую в работе</h3>
+            <div class="divider"></div>
+            <div class="skills__wrapper reveal-elements">
+                <div class="skills__item box1 digit">
+                    <div class="skills__item-icon"><img src="icons/skills/html5.svg" alt="html5"></div>
+                    <div class="skills__item-title title_fz14 title">HTML5</div>
+                    <div class="skills__item-text">Именно он создает каркас вашего сайта или приложения, а пятая версия
+                        позволит мне создавать более SEO-оптимизированную структуру вашего продукта</div>
+                </div>
+                <div class="skills__item box1 digit">
+                    <div class="skills__item-icon"><img src="icons/skills/css3.svg" alt="css3"></div>
+                    <div class="skills__item-title title_fz14 title">CSS3</div>
+                    <div class="skills__item-text">Этот язык стилей позволяет мне создавать абсолютно любой внешний вид
+                        вашего сайта или приложения. Все ограничивается только вашей фантазией!</div>
+                </div>
+                <div class="skills__item box1 digit">
+                    <div class="skills__item-icon"><img src="icons/skills/js.svg" alt="js"></div>
+                    <div class="skills__item-title title_fz14 title">Java Script</div>
+                    <div class="skills__item-text">Этот язык программирования позволяет оживить все что угодно:
+                        слайдеры, окна, подсказки, вкладки, получение данных от сервера и многое другое</div>
+                </div>
+                <div class="skills__item box1 digit">
+                    <div class="skills__item-icon"><img src="icons/skills/bootstrap.png" alt="bootstrap"></div>
+                    <div class="skills__item-title title_fz14 title">Bootstrap</div>
+                    <div class="skills__item-text">Эта библиотека позволяет гибко работать с адаптацией сайта для
+                        мобильных устройств</div>
+                </div>
+                <div class="skills__item box1 digit">
+                    <div class="skills__item-icon"><img src="icons/skills/jquery.svg" alt="jquery"></div>
+                    <div class="skills__item-title title_fz14 title">Jquery</div>
+                    <div class="skills__item-text">Библиотека Jquery позволит ускорить разработку. Без необходимости
+                        интегрировать в проект мы её не будем, но навык работы с ней присутствует</div>
+                </div>
+                <div class="skills__item box1 digit">
+                    <div class="skills__item-icon"><img src="icons/skills/react.svg" alt="react"></div>
+                    <div class="skills__item-title title_fz14 title">React</div>
+                    <div class="skills__item-text">Эта библиотека позволяет создавать web-приложения. Мы можем создать
+                        максимально интерактивный продукт именно под ваши цели</div>
+                </div>
+                <div class="skills__item box1 digit">
+                    <div class="skills__item-icon"><img src="icons/skills/indesign.png" alt="indesign"></div>
+                    <div class="skills__item-title title_fz14 title">InDesign</div>
+                    <div class="skills__item-text">Это программа позволяющая делать красивые и уникальные
+                        полиграфические продукты, такие как каталоги, визитки, брошюры</div>
+                </div>
+            </div>
+            <div class="skills__percent">
+                <div class="skills__percent-item">
+                    <div class="skills__percent-item-head">
+                        <div class="skills__percent-item-title title_fz14 title">Создание сайтов</div>
+                        <div class="percent">100%</div>
+                    </div>
+                    <div class="skills__percent-item-body"><span></span></div>
+                </div>
+                <!-- <div class="skills__percent-item">
+                    <div class="skills__percent-item-head">
+                        <div class="skills__percent-item-title title_fz14 title">Создание приложений</div>
+                        <div class="percent">85%</div>
+                    </div>
+                    <div class="skills__percent-item-body"><span></span></div>
+                </div> -->
+                <div class="skills__percent-item">
+                    <div class="skills__percent-item-head">
+                        <div class="skills__percent-item-title title_fz14 title">Работа с данными</div>
+                        <div class="percent">90%</div>
+                    </div>
+                    <div class="skills__percent-item-body"><span></span></div>
+                </div>
+                <div class="skills__percent-item">
+                    <div class="skills__percent-item-head">
+                        <div class="skills__percent-item-title title_fz14 title">Креативность</div>
+                        <div class="percent">75%</div>
+                    </div>
+                    <div class="skills__percent-item-body"><span></span></div>
+                </div>
+                <div class="skills__percent-item">
+                    <div class="skills__percent-item-head">
+                        <div class="skills__percent-item-title title_fz14 title">Создание дизайна</div>
+                        <div class="percent">90%</div>
+                    </div>
+                    <div class="skills__percent-item-body"><span></span></div>
+                </div>
+                <div class="skills__percent-item">
+                    <div class="skills__percent-item-head">
+                        <div class="skills__percent-item-title title_fz14 title">Soft skills</div>
+                        <div class="percent">95%</div>
+                    </div>
+                    <div class="skills__percent-item-body"><span></span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio panel" id="portfolio">
+        <div class="container">
+            <div class="title title_fz16 title__section-title">Портфолио</div>
+            <h3 class="title title_fz36 title__section-subtitle">Мои работы</h3>
+            <div class="divider"></div>
+            <div class="portfolio__wrapper"><a href="uber" class="portfolio__item"><img src="img/works/uber.jpg"
+                        alt="uber">
+                    <div class="portfolio__item-label">Сайт компании Uber</div>
+                </a><a href="Pulse" class="portfolio__item"><img src="img/works/pulse.jpg" alt="pulse">
+                    <div class="portfolio__item-label">Сайт магазина пульсометров</div>
+                </a><a href="wordpress" class="portfolio__item"><img src="img/works/wordpress.JPG" alt="wordpress">
+                    <div class="portfolio__item-label">Сайт интенсива по Wordpress</div>
+                </a><a href="https://www.behance.net/gallery/94144281/UXUI-design-of-application-To-do-list"
+                    class="portfolio__item vertical"><img src="img/works/phone.jpg" alt="to-do list">
+                    <div class="portfolio__item-label">UI дизайн приложения TO-DO list</div>
+                </a><a href="https://www.behance.net/gallery/91382679/katalog-produkcii-kompanii-elkus"
+                    class="portfolio__item"><img src="img/works/catalog.JPG" alt="catalog">
+                    <div class="portfolio__item-label">Каталог продукции компании Элкус</div>
+                </a><a
+                    href="https://www.behance.net/gallery/87728635/prototip-portfolio-fotografa-Moodboard-colorscheme"
+                    class="portfolio__item horizonal"><img src="img/works/ui-kit.jpg" alt="ui-kit">
+                    <div class="portfolio__item-label">UI-kit сайта фотографа</div>
+                </a></div>
+        </div>
+    </section>
+    <section class="prices panel" id="prices">
+        <div class="container">
+            <div class="title title_fz16 title__section-title">Прайс-лист</div>
+            <div class="divider"></div>
+            <div class="prices__wrapper">
+                <div class="prices__item">
+                    <div class="prices__item-title title_fz14 title">Landing-page</div>
+                    <div class="prices__item-price title title_fz14">от 8000 руб.</div>
+                    <div class="prices__item-descr">Одностраничный сайт для презентации услуг/товаров/...</div>
+                </div>
+                <div class="prices__item">
+                    <div class="prices__item-title title_fz14 title">Web-приложение</div>
+                    <div class="prices__item-price title title_fz14">от 28000 руб.</div>
+                    <div class="prices__item-descr">Приложение внутри браузера для лучшего комфорта</div>
+                </div>
+                <div class="prices__item">
+                    <div class="prices__item-title title_fz14 title">Полиграфический каталог</div>
+                    <div class="prices__item-price title title_fz14">от 20000 руб.</div>
+                    <div class="prices__item-descr">Каталог продукции вашей компании</div>
+                </div>
+                <!-- <div class="prices__item">
+                    <div class="prices__item-title title_fz14 title">Android/IOS Приложение</div>
+                    <div class="prices__item-price title title_fz14">от 25000 руб.</div>
+                    <div class="prices__item-descr">Приложение для смартфона любой ОС</div>
+                </div> -->
+                <div class="prices__item">
+                    <div class="prices__item-title title_fz14 title">Интернет-магазин</div>
+                    <div class="prices__item-price title title_fz14">от 30000 руб.</div>
+                    <div class="prices__item-descr">Инструмент для ваших продаж в сети</div>
+                </div>
+                <div class="prices__item">
+                    <div class="prices__item-title title_fz14 title">Дизайн</div>
+                    <div class="prices__item-price title title_fz14">Индивидуально</div>
+                    <div class="prices__item-descr">Создам дизайн для вашего сайта/приложения...</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contacts panel" id="contacts">
+        <div class="container">
+            <div class="contacts__wrapper">
+                <div class="contacts__photo"><img src="img/main_photo.jpg" alt="Алиса Волкова"></div>
+                <div class="contacts__descr">
+                    <h2 class="title title_fz16 contacts__title">Контакты</h2>
+                    <div class="title contacts__subtitle">Свяжитесь со мной</div>
+                    <div class="divider"></div>
+                    <div class="title title_fz14 contacts__text">Любым удобным для вас способом:</div>
+                    <div class="contacts__social">
+                        <a href="https://vk.com/allisqin" class="contacts__link" target="_blank"><img
+                                src="icons/social/vk.svg" alt="vk"> </a>
+                        <a href="t.me/allisqin" class="contacts__link" target="_blank"><img
+                                src="icons/social/telegram.svg" alt="telegram"> </a>
+                        <a href="https://www.instagram.com/allisqin?igsh=MnoxbmhiMjg3ZGk1" class="contacts__link"
+                            target="_blank"><img src="icons/social/instagram.svg" alt="instagram"></a></div>
+                    <div class="title title_fz14 contacts__text">Или оставьте ваши данные и я сама вам напишу:</div>
+                    <form action="#" id="form" class="contacts__form" method="get">
+                        <div class="contacts__input"><input name="name" id="name" type="text" required minlength="3">
+                            <label for="name">Ваше имя</label></div>
+                        <div class="contacts__input"><input name="email" id="email" type="email" required> <label
+                                for="email">Ваша почта</label></div>
+                        <div class="contacts__textarea"><textarea name="text" id="text"></textarea> <label
+                                for="text">Ваше сообщение</label></div>
+                        <div class="contacts__triggers"><button class="contacts__btn btn" type="submit">Отправить
+                                сообщение</button>
+                            <div class="contacts__policy"><input type="checkbox" required name="check"> <span>Я
+                                    согласен(а) с <a href="/policy.html" target="_blank">политикой
+                                        конфиденциальности</a></span></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="overlay">
+        <div class="modalka">
+            <div class="modalka__close">&times;</div>
+            <div class="modalka__subtitle">Спасибо за вашу заявку!</div>
+            <div class="modalka__descr">Свяжусь с вами в ближайшее время!</div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous">
+    </script> -->
+</body>
+
+</html>
