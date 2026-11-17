@@ -13,7 +13,7 @@ $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.yandex.ru';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = 'volkova-alisa87@yandex.ru';                 // Наш логин
-$mail->Password = 'bfbvzsdqrewlchxc';                           // Наш пароль от ящика
+$mail->Password = 'wsaEds1A';                           // Наш пароль от ящика
 $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;                                    // TCP port to connect to
 
